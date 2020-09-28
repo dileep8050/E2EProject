@@ -9,16 +9,19 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Validating Title</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">66,792</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Validating navigation</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">74,963</td><td></td><td></td></tr>
-<tr><td><a href="#t2">Validating home page</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">94,526</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">4</th><th class="num">0</th><th class="num attn">1</th><th class="num">236,281</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Validating home page</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">25,086</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Validating navigation</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">24,904</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Validating Title</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">24,994</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">4</th><th class="num">0</th><th class="num attn">1</th><th class="num">74,984</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Validating Title &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Academy.validateTitle</td><td><a href="#m0">ValidateheaderText</a></td><td rowspan="1">1601315023890</td><td rowspan="1">251</td></tr><tr><th colspan="4">Validating Title &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Academy.validateTitle</td><td><a href="#m1">ValidateTitleNavigation</a></td><td rowspan="1">1601315023648</td><td rowspan="1">226</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Validating navigation &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Academy.ValidateNavigation</td><td><a href="#m2">validateNavigation</a></td><td rowspan="1">1601315033158</td><td rowspan="1">103</td></tr></tbody>
-<tbody id="t2"><tr><th colspan="4">Validating home page &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">Academy.Homepage</td><td><a href="#m3">hompage</a></td><td rowspan="2">1601315044036</td><td rowspan="2">4721</td></tr><tr class="passedeven"><td><a href="#m4">hompage</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Validating home page &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">Academy.Homepage</td><td><a href="#m0">hompage</a></td><td rowspan="2">1601317506029</td><td rowspan="2">4774</td></tr><tr class="passedeven"><td><a href="#m1">hompage</a></td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Validating navigation &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Academy.ValidateNavigation</td><td><a href="#m2">validateNavigation</a></td><td rowspan="1">1601317503656</td><td rowspan="1">258</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Validating Title &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Academy.validateTitle</td><td><a href="#m3">ValidateheaderText</a></td><td rowspan="1">1601317504243</td><td rowspan="1">422</td></tr><tr><th colspan="4">Validating Title &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Academy.validateTitle</td><td><a href="#m4">ValidateTitleNavigation</a></td><td rowspan="1">1601317504152</td><td rowspan="1">89</td></tr></tbody>
 </table>
-<h2>Validating Title</h2><h3 id="m0">Academy.validateTitle#ValidateheaderText</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">junit.framework.ComparisonFailure: expected:&lt;...RYTHING ABOUT TESTIN[G]&gt; but was:&lt;...RYTHING ABOUT TESTIN[]&gt;
+<h2>Validating home page</h2><h3 id="m0">Academy.Homepage#hompage</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>retricteduser@gmail.com</td><td>passrestricted</td><td>This is restirected user</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Academy.Homepage#hompage</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>nonretricteduser@gmail.com</td><td>passNonrestricted</td><td>This is not restirected user</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Validating navigation</h2><h3 id="m2">Academy.ValidateNavigation#validateNavigation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Validating Title</h2><h3 id="m3">Academy.validateTitle#ValidateheaderText</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">junit.framework.ComparisonFailure: expected:&lt;...RYTHING ABOUT TESTIN[G]&gt; but was:&lt;...RYTHING ABOUT TESTIN[]&gt;
 	at junit.framework.Assert.assertEquals(Assert.java:100)
 	at junit.framework.Assert.assertEquals(Assert.java:107)
 	at Academy.validateTitle.ValidateheaderText(validateTitle.java:44)
@@ -27,9 +30,6 @@
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 ... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">Academy.validateTitle#ValidateTitleNavigation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Validating navigation</h2><h3 id="m2">Academy.ValidateNavigation#validateNavigation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Validating home page</h2><h3 id="m3">Academy.Homepage#hompage</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>retricteduser@gmail.com</td><td>passrestricted</td><td>This is restirected user</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">Academy.Homepage#hompage</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>nonretricteduser@gmail.com</td><td>passNonrestricted</td><td>This is not restirected user</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Academy.validateTitle#ValidateTitleNavigation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

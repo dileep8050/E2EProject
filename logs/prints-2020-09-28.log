@@ -1,56 +1,56 @@
-14:06:05.103 [TestNG-tests-1] INFO  Academy.validateTitle - Body text validated successfully
-14:06:08.696 [TestNG-tests-3] INFO  Academy.ValidateNavigation - Navigation validated successfully
-14:06:14.491 [TestNG-tests-1] INFO  Academy.validateTitle - Browser closed successfully
-14:06:18.895 [TestNG-tests-2] INFO  Academy.Homepage - Browser closed successfully
-14:07:39.078 [TestNG-tests-3] INFO  Academy.ValidateNavigation - Driver Initialized for ValidateNavigation
-14:07:39.608 [TestNG-tests-1] INFO  Academy.validateTitle - Driver Initialized
-14:07:40.207 [TestNG-tests-2] INFO  Academy.Homepage - Driver Initialized Homepage
-14:07:40.233 [TestNG-tests-2] INFO  Academy.Homepage - Data provider passing data
-14:07:53.991 [TestNG-tests-1] INFO  Academy.validateTitle - Launched browser with url
-14:07:54.714 [TestNG-tests-1] INFO  Academy.validateTitle - Body text validated successfully
-14:07:55.436 [TestNG-tests-3] INFO  Academy.ValidateNavigation - Navigation validated successfully
-14:08:01.214 [TestNG-tests-1] INFO  Academy.validateTitle - Browser closed successfully
-14:08:04.271 [TestNG-tests-2] INFO  Academy.Homepage - Browser closed successfully
-14:53:09.087 [TestNG-tests-3] INFO  Academy.ValidateNavigation - Driver Initialized for ValidateNavigation
-14:53:09.360 [TestNG-tests-2] INFO  Academy.Homepage - Driver Initialized Homepage
-14:53:09.383 [TestNG-tests-2] INFO  Academy.Homepage - Data provider passing data
-14:53:09.635 [TestNG-tests-1] INFO  Academy.validateTitle - Driver Initialized
-14:53:38.206 [TestNG-tests-3] INFO  Academy.ValidateNavigation - Navigation validated successfully
-14:53:39.745 [TestNG-tests-1] INFO  Academy.validateTitle - Launched browser with url
-14:53:39.942 [TestNG-tests-1] INFO  Academy.validateTitle - Body text validated successfully
-14:53:47.223 [TestNG-tests-1] INFO  Academy.validateTitle - Browser closed successfully
-14:53:50.819 [TestNG-tests-2] INFO  Academy.Homepage - Browser closed successfully
-17:17:36.710 [TestNG-tests-1] INFO  Academy.validateTitle - Driver Initialized
-17:17:36.726 [TestNG-tests-3] INFO  Academy.ValidateNavigation - Driver Initialized for ValidateNavigation
-17:17:36.766 [TestNG-tests-2] INFO  Academy.Homepage - Driver Initialized Homepage
-17:17:36.782 [TestNG-tests-2] INFO  Academy.Homepage - Data provider passing data
-17:18:04.161 [TestNG-tests-1] INFO  Academy.validateTitle - Launched browser with url
-17:18:04.877 [TestNG-tests-1] INFO  Academy.validateTitle - Body text validated successfully
-17:18:05.385 [TestNG-tests-3] INFO  Academy.ValidateNavigation - Navigation validated successfully
-17:18:11.619 [TestNG-tests-1] INFO  Academy.validateTitle - Browser closed successfully
-17:18:14.137 [TestNG-tests-2] INFO  Academy.Homepage - Browser closed successfully
-17:20:01.172 [TestNG-tests-2] INFO  Academy.Homepage - Driver Initialized Homepage
-17:20:01.189 [TestNG-tests-2] INFO  Academy.Homepage - Data provider passing data
-17:20:01.340 [TestNG-tests-1] INFO  Academy.validateTitle - Driver Initialized
-17:20:01.444 [TestNG-tests-3] INFO  Academy.ValidateNavigation - Driver Initialized for ValidateNavigation
-17:20:11.997 [TestNG-tests-3] INFO  Academy.ValidateNavigation - Navigation validated successfully
-17:20:12.405 [TestNG-tests-1] INFO  Academy.validateTitle - Launched browser with url
-17:20:12.585 [TestNG-tests-1] INFO  Academy.validateTitle - Body text validated successfully
-17:20:13.945 [TestNG-tests-1] INFO  Academy.validateTitle - Browser closed successfully
-17:20:18.312 [TestNG-tests-2] INFO  Academy.Homepage - Browser closed successfully
-22:24:07.571 [TestNG-tests-3] INFO  Academy.ValidateNavigation - Driver Initialized for ValidateNavigation
-22:24:07.579 [TestNG-tests-1] INFO  Academy.validateTitle - Driver Initialized
-22:24:07.658 [TestNG-tests-2] INFO  Academy.Homepage - Driver Initialized Homepage
-22:24:07.674 [TestNG-tests-2] INFO  Academy.Homepage - Data provider passing data
-22:25:20.795 [TestNG-tests-1] INFO  Academy.validateTitle - Launched browser with url
-22:25:21.127 [TestNG-tests-1] INFO  Academy.validateTitle - Body text validated successfully
-22:25:21.471 [TestNG-tests-3] INFO  Academy.ValidateNavigation - Navigation validated successfully
-22:25:27.430 [TestNG-tests-1] INFO  Academy.validateTitle - Browser closed successfully
-22:25:30.160 [TestNG-tests-2] INFO  Academy.Homepage - Browser closed successfully
-22:56:18.547 [TestNG-tests-3] INFO  Academy.ValidateNavigation - Driver Initialized for ValidateNavigation
-22:56:18.745 [TestNG-tests-1] INFO  Academy.validateTitle - Driver Initialized
-22:56:19.445 [TestNG-tests-2] INFO  Academy.Homepage - Driver Initialized Homepage
-22:56:19.485 [TestNG-tests-2] INFO  Academy.Homepage - Data provider passing data
-22:57:20.153 [TestNG-tests-3] INFO  Academy.ValidateNavigation - Navigation validated successfully
-22:57:24.535 [TestNG-tests-1] INFO  Academy.validateTitle - Launched browser with url
-22:57:24.587 [TestNG-tests-1] INFO  Academy.validateTitle - Body text validated successfully
+22:57:26.926 [TestNG-tests-1] INFO  Academy.validateTitle - Browser closed successfully
+22:57:40.930 [TestNG-tests-2] INFO  Academy.Homepage - Browser closed successfully
+23:04:23.524 [TestNG-tests-3] INFO  Academy.ValidateNavigation - Driver Initialized for ValidateNavigation
+23:04:23.872 [TestNG-tests-2] INFO  Academy.Homepage - Driver Initialized Homepage
+23:04:23.890 [TestNG-tests-2] INFO  Academy.Homepage - Data provider passing data
+23:04:24.441 [TestNG-tests-1] INFO  Academy.validateTitle - Driver Initialized
+23:05:09.806 [TestNG-tests-3] INFO  Academy.ValidateNavigation - Navigation validated successfully
+23:05:36.189 [TestNG-tests-1] INFO  Academy.validateTitle - Launched browser with url
+23:05:36.246 [TestNG-tests-1] INFO  Academy.validateTitle - Body text validated successfully
+23:05:41.116 [TestNG-tests-1] INFO  Academy.validateTitle - Browser closed successfully
+23:05:57.069 [TestNG-tests-2] INFO  Academy.Homepage - Browser closed successfully
+23:12:44.744 [TestNG-tests-1] INFO  Academy.validateTitle - Driver Initialized
+23:12:44.744 [TestNG-tests-3] INFO  Academy.ValidateNavigation - Driver Initialized for ValidateNavigation
+23:12:44.945 [TestNG-tests-2] INFO  Academy.Homepage - Driver Initialized Homepage
+23:12:44.963 [TestNG-tests-2] INFO  Academy.Homepage - Data provider passing data
+23:13:43.645 [TestNG-tests-1] INFO  Academy.validateTitle - Launched browser with url
+23:13:43.874 [TestNG-tests-1] INFO  Academy.validateTitle - Body text validated successfully
+23:13:45.225 [TestNG-tests-1] INFO  Academy.validateTitle - Browser closed successfully
+23:13:53.260 [TestNG-tests-3] INFO  Academy.ValidateNavigation - Navigation validated successfully
+23:14:12.959 [TestNG-tests-2] INFO  Academy.Homepage - Browser closed successfully
+23:31:04.050 [TestNG-tests-2] INFO  Academy.Homepage - Driver Initialized Homepage
+23:31:04.066 [TestNG-tests-2] INFO  Academy.Homepage - Data provider passing data
+23:31:04.245 [TestNG-tests-1] INFO  Academy.validateTitle - Driver Initialized
+23:31:04.326 [TestNG-tests-3] INFO  Academy.ValidateNavigation - Driver Initialized for ValidateNavigation
+23:31:19.815 [TestNG-tests-1] INFO  Academy.validateTitle - Launched browser with url
+23:31:20.171 [TestNG-tests-1] INFO  Academy.validateTitle - Body text validated successfully
+23:31:20.505 [TestNG-tests-3] INFO  Academy.ValidateNavigation - Navigation validated successfully
+23:31:25.636 [TestNG-tests-1] INFO  Academy.validateTitle - Browser closed successfully
+23:31:26.008 [TestNG-tests-2] INFO  Academy.Homepage - Browser closed successfully
+23:39:23.653 [TestNG-tests-3] INFO  Academy.ValidateNavigation - Driver Initialized for ValidateNavigation
+23:39:23.711 [TestNG-tests-2] INFO  Academy.Homepage - Driver Initialized Homepage
+23:39:23.777 [TestNG-tests-2] INFO  Academy.Homepage - Data provider passing data
+23:39:23.786 [TestNG-tests-1] INFO  Academy.validateTitle - Driver Initialized
+23:39:31.867 [TestNG-tests-1] INFO  Academy.validateTitle - Launched browser with url
+23:39:32.231 [TestNG-tests-1] INFO  Academy.validateTitle - Body text validated successfully
+23:39:32.540 [TestNG-tests-3] INFO  Academy.ValidateNavigation - Navigation validated successfully
+23:39:35.631 [TestNG-tests-1] INFO  Academy.validateTitle - Browser closed successfully
+23:39:41.078 [TestNG-tests-2] INFO  Academy.Homepage - Browser closed successfully
+23:46:48.468 [TestNG-tests-1] INFO  Academy.validateTitle - Driver Initialized
+23:46:48.623 [TestNG-tests-2] INFO  Academy.Homepage - Driver Initialized Homepage
+23:46:48.666 [TestNG-tests-2] INFO  Academy.Homepage - Data provider passing data
+23:46:49.360 [TestNG-tests-3] INFO  Academy.ValidateNavigation - Driver Initialized for ValidateNavigation
+23:46:56.916 [TestNG-tests-1] INFO  Academy.validateTitle - Launched browser with url
+23:46:57.619 [TestNG-tests-1] INFO  Academy.validateTitle - Body text validated successfully
+23:46:58.580 [TestNG-tests-3] INFO  Academy.ValidateNavigation - Navigation validated successfully
+23:47:00.806 [TestNG-tests-1] INFO  Academy.validateTitle - Browser closed successfully
+23:47:09.317 [TestNG-tests-2] INFO  Academy.Homepage - Browser closed successfully
+23:48:33.642 [TestNG-tests-3] INFO  Academy.ValidateNavigation - Driver Initialized for ValidateNavigation
+23:48:33.743 [TestNG-tests-1] INFO  Academy.validateTitle - Driver Initialized
+23:48:33.771 [TestNG-tests-2] INFO  Academy.Homepage - Driver Initialized Homepage
+23:48:33.792 [TestNG-tests-2] INFO  Academy.Homepage - Data provider passing data
+23:48:42.065 [TestNG-tests-1] INFO  Academy.validateTitle - Launched browser with url
+23:48:42.181 [TestNG-tests-3] INFO  Academy.ValidateNavigation - Navigation validated successfully
+23:48:42.493 [TestNG-tests-1] INFO  Academy.validateTitle - Body text validated successfully
+23:48:44.754 [TestNG-tests-1] INFO  Academy.validateTitle - Browser closed successfully
+23:48:50.165 [TestNG-tests-2] INFO  Academy.Homepage - Browser closed successfully

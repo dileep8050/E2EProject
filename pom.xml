@@ -95,7 +95,7 @@
 				 
 				 <configuration>
 				 <!-- From Email address -->
-				 <from>dileepkeerthi55@gmail.com</from>
+				 <from>abc@gmail.com</from>
 				 
 				 <!--  Email subject -->
 				 <subject>Test Automation Report</subject>
@@ -111,18 +111,19 @@
 				 <mailAltConfig>true</mailAltConfig>
 				 
 				 <!-- Email Authentication(USername and Password) -->
-				 <mailuser>dileepkeerthi55@gmail.com</mailuser>
-				 <mailpassword>Daddy@123</mailpassword>
+				 <mailuser>xyz@gmail.com</mailuser>
+				 <mailpassword>1234</mailpassword>
 				 
 				 <receivers>
 				 <!-- To Email address -->
-				 <receiver>dileepkumarpaidi@gmail.com</receiver>
+				 <receiver>abc@gmail.com</receiver>
+				 <receiver>bca@gmail.com</receiver>
 				 </receivers>
 				 
 				 <fileSets>
 				 <fileSet>
 				 <!-- Report directory Path -->
-				 <directory>C://Users//jagadeesh//eclipse-workspace//E2EProject//test-output</directory>
+				 <directory>${project.basedir}/reports</directory>
 				 <includes>
 				 <!-- Report file name -->
 				 <include>index.html</include>
