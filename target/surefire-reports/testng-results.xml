@@ -2,36 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="32525" started-at="2020-09-28T08:37:31Z" finished-at="2020-09-28T08:38:04Z">
+  <suite name="Suite" duration-ms="94526" started-at="2020-09-28T17:42:38Z" finished-at="2020-09-28T17:44:12Z">
     <groups>
     </groups>
-    <test name="Validating navigation" duration-ms="28205" started-at="2020-09-28T08:37:31Z" finished-at="2020-09-28T08:37:59Z">
-      <class name="Academy.ValidateNavigation">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.ValidateNavigation@50caa560]" name="initialize" is-config="true" duration-ms="23050" started-at="2020-09-28T08:37:31Z" finished-at="2020-09-28T08:37:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="validateNavigation()[pri:0, instance:Academy.ValidateNavigation@50caa560]" name="validateNavigation" duration-ms="637" started-at="2020-09-28T08:37:54Z" finished-at="2020-09-28T08:37:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateNavigation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.ValidateNavigation@50caa560]" name="tearDown" is-config="true" duration-ms="4512" started-at="2020-09-28T08:37:55Z" finished-at="2020-09-28T08:37:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Academy.ValidateNavigation -->
-    </test> <!-- Validating navigation -->
-    <test name="Validating Title" duration-ms="29468" started-at="2020-09-28T08:37:31Z" finished-at="2020-09-28T08:38:01Z">
+    <test name="Validating Title" duration-ms="66792" started-at="2020-09-28T17:42:38Z" finished-at="2020-09-28T17:43:45Z">
       <class name="Academy.validateTitle">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.validateTitle@6e509ffa]" name="initialize" is-config="true" duration-ms="22244" started-at="2020-09-28T08:37:31Z" finished-at="2020-09-28T08:37:53Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.validateTitle@15888343]" name="initialize" is-config="true" duration-ms="65213" started-at="2020-09-28T17:42:38Z" finished-at="2020-09-28T17:43:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="ValidateTitleNavigation()[pri:0, instance:Academy.validateTitle@6e509ffa]" name="ValidateTitleNavigation" duration-ms="720" started-at="2020-09-28T08:37:53Z" finished-at="2020-09-28T08:37:54Z">
+        <test-method status="PASS" signature="ValidateTitleNavigation()[pri:0, instance:Academy.validateTitle@15888343]" name="ValidateTitleNavigation" duration-ms="226" started-at="2020-09-28T17:43:43Z" finished-at="2020-09-28T17:43:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateTitleNavigation -->
-        <test-method status="FAIL" signature="ValidateheaderText()[pri:0, instance:Academy.validateTitle@6e509ffa]" name="ValidateheaderText" duration-ms="440" started-at="2020-09-28T08:37:54Z" finished-at="2020-09-28T08:37:55Z">
+        <test-method status="FAIL" signature="ValidateheaderText()[pri:0, instance:Academy.validateTitle@15888343]" name="ValidateheaderText" duration-ms="251" started-at="2020-09-28T17:43:43Z" finished-at="2020-09-28T17:43:44Z">
           <exception class="junit.framework.ComparisonFailure">
             <message>
               <![CDATA[expected:<...RYTHING ABOUT TESTIN[G]> but was:<...RYTHING ABOUT TESTIN[]>]]>
@@ -67,19 +51,35 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateheaderText -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.validateTitle@6e509ffa]" name="tearDown" is-config="true" duration-ms="4578" started-at="2020-09-28T08:37:56Z" finished-at="2020-09-28T08:38:01Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.validateTitle@15888343]" name="tearDown" is-config="true" duration-ms="207" started-at="2020-09-28T17:43:45Z" finished-at="2020-09-28T17:43:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Academy.validateTitle -->
     </test> <!-- Validating Title -->
-    <test name="Validating home page" duration-ms="32524" started-at="2020-09-28T08:37:31Z" finished-at="2020-09-28T08:38:04Z">
-      <class name="Academy.Homepage">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.Homepage@55740540]" name="initialize" is-config="true" duration-ms="8458" started-at="2020-09-28T08:37:31Z" finished-at="2020-09-28T08:37:40Z">
+    <test name="Validating navigation" duration-ms="74963" started-at="2020-09-28T17:42:38Z" finished-at="2020-09-28T17:43:53Z">
+      <class name="Academy.ValidateNavigation">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.ValidateNavigation@4f0f2942]" name="initialize" is-config="true" duration-ms="74724" started-at="2020-09-28T17:42:38Z" finished-at="2020-09-28T17:43:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="hompage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.Homepage@55740540]" name="hompage" duration-ms="18140" started-at="2020-09-28T08:37:40Z" data-provider="getData" finished-at="2020-09-28T08:37:58Z">
+        <test-method status="PASS" signature="validateNavigation()[pri:0, instance:Academy.ValidateNavigation@4f0f2942]" name="validateNavigation" duration-ms="103" started-at="2020-09-28T17:43:53Z" finished-at="2020-09-28T17:43:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.ValidateNavigation@4f0f2942]" name="tearDown" is-config="true" duration-ms="135" started-at="2020-09-28T17:43:53Z" finished-at="2020-09-28T17:43:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.ValidateNavigation -->
+    </test> <!-- Validating navigation -->
+    <test name="Validating home page" duration-ms="94526" started-at="2020-09-28T17:42:38Z" finished-at="2020-09-28T17:44:12Z">
+      <class name="Academy.Homepage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.Homepage@20b2475a]" name="initialize" is-config="true" duration-ms="6512" started-at="2020-09-28T17:42:38Z" finished-at="2020-09-28T17:42:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="hompage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.Homepage@20b2475a]" name="hompage" duration-ms="79057" started-at="2020-09-28T17:42:44Z" data-provider="getData" finished-at="2020-09-28T17:44:04Z">
           <params>
             <param index="0">
               <value>
@@ -100,7 +100,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hompage -->
-        <test-method status="PASS" signature="hompage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.Homepage@55740540]" name="hompage" duration-ms="5642" started-at="2020-09-28T08:37:58Z" data-provider="getData" finished-at="2020-09-28T08:38:04Z">
+        <test-method status="PASS" signature="hompage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.Homepage@20b2475a]" name="hompage" duration-ms="4721" started-at="2020-09-28T17:44:04Z" data-provider="getData" finished-at="2020-09-28T17:44:08Z">
           <params>
             <param index="0">
               <value>
@@ -121,7 +121,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hompage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.Homepage@55740540]" name="tearDown" is-config="true" duration-ms="229" started-at="2020-09-28T08:38:04Z" finished-at="2020-09-28T08:38:04Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.Homepage@20b2475a]" name="tearDown" is-config="true" duration-ms="4202" started-at="2020-09-28T17:44:08Z" finished-at="2020-09-28T17:44:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
