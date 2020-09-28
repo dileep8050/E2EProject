@@ -1,0 +1,209 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-26T13:04:40.148Z",
+        "line": 13,
+        "name": "Positive test validating login",
+        "description": "",
+        "id": "login-into-application;positive-test-validating-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4723000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Initialize the browser with chrome",
+            "match": {
+              "location": "stepDefinations.stepDefination.initialize_the_browser_with_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13712000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to \"http://qaclickacademy.com\" Site",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://qaclickacademy.com",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinations.stepDefination.navigate_to_Site(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15011000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login link in home page to land on Secure sign in Page",
+            "match": {
+              "location": "stepDefinations.stepDefination.click_on_Login_link_in_home_page_to_land_on_Secure_sign_in_Page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1458000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters test99@gmail.com and 123456 and logs in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test99@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "123456",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinations.stepDefination.user_enters_and_and_logs_in(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify that user is succesfully logged in",
+            "match": {
+              "location": "stepDefinations.stepDefination.verify_that_user_is_succesfully_logged_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 738000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close browsers",
+            "match": {
+              "location": "stepDefinations.stepDefination.close_browsers()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T13:05:15.897Z",
+        "line": 14,
+        "name": "Positive test validating login",
+        "description": "",
+        "id": "login-into-application;positive-test-validating-login;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3490000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Initialize the browser with chrome",
+            "match": {
+              "location": "stepDefinations.stepDefination.initialize_the_browser_with_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15248000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to \"http://qaclickacademy.com\" Site",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://qaclickacademy.com",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinations.stepDefination.navigate_to_Site(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12482000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login link in home page to land on Secure sign in Page",
+            "match": {
+              "location": "stepDefinations.stepDefination.click_on_Login_link_in_home_page_to_land_on_Secure_sign_in_Page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1080000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters test123@gmail.com and 12345 and logs in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test123@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "12345",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefinations.stepDefination.user_enters_and_and_logs_in(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify that user is succesfully logged in",
+            "match": {
+              "location": "stepDefinations.stepDefination.verify_that_user_is_succesfully_logged_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 742000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close browsers",
+            "match": {
+              "location": "stepDefinations.stepDefination.close_browsers()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login into Application",
+    "description": "",
+    "id": "login-into-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/login.feature",
+    "tags": []
+  }
+]
