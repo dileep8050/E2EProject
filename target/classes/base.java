@@ -62,7 +62,7 @@ public class base {
 	{
 		TakesScreenshot ts= (TakesScreenshot) driver;
 		File source=ts.getScreenshotAs(OutputType.FILE);
-		String jenkinsurl="http://localhost:8080/job/gitjenkins/ws";
+		String jenkinsurl="http:////localhost:8080/job/gitjenkins/ws";
 		String destinationFileName=jenkinsurl+"\\reports\\"+testCaseName+".png";
 		FileHandler.copy(source, new File(destinationFileName));
 		return destinationFileName;
