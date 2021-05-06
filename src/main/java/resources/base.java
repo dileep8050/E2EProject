@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 
 import java.io.IOException;
+import java.net.URL;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -21,6 +22,7 @@ public class base {
 
 	public WebDriver driver;
 	public Properties prop;
+	URL link;
 	public WebDriver initializeDriver() throws IOException
 	{
 		prop=new Properties();
@@ -62,8 +64,8 @@ public class base {
 	{
 		TakesScreenshot ts= (TakesScreenshot) driver;
 		File source=ts.getScreenshotAs(OutputType.FILE);
-		String jenkinsurl="http:////localhost:8080/job/gitjenkins/ws";
-		String destinationFileName=jenkinsurl+"\\reports\\"+testCaseName+".png";
+		link=new URL("http://localhost:8080/job/gitjenkins/ws");
+		String destinationFileName=link+"\\reports\\"+testCaseName+".png";
 		FileHandler.copy(source, new File(destinationFileName));
 		return destinationFileName;
 	}
