@@ -2,90 +2,36 @@
 <testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="25086" started-at="2020-09-28T18:24:46Z" finished-at="2020-09-28T18:25:11Z">
+  <suite name="Suite" duration-ms="61958" started-at="2021-05-05T08:38:58Z" finished-at="2021-05-05T08:40:00Z">
     <groups>
     </groups>
-    <test name="Validating home page" duration-ms="25086" started-at="2020-09-28T18:24:46Z" finished-at="2020-09-28T18:25:11Z">
-      <class name="Academy.Homepage">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.Homepage@20b2475a]" name="initialize" is-config="true" duration-ms="5831" started-at="2020-09-28T18:24:46Z" finished-at="2020-09-28T18:24:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="hompage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.Homepage@20b2475a]" name="hompage" duration-ms="13424" started-at="2020-09-28T18:24:52Z" data-provider="getData" finished-at="2020-09-28T18:25:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[nonretricteduser@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[passNonrestricted]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[This is not restirected user]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hompage -->
-        <test-method status="PASS" signature="hompage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.Homepage@20b2475a]" name="hompage" duration-ms="4774" started-at="2020-09-28T18:25:06Z" data-provider="getData" finished-at="2020-09-28T18:25:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[retricteduser@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[passrestricted]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[This is restirected user]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hompage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.Homepage@20b2475a]" name="tearDown" is-config="true" duration-ms="1024" started-at="2020-09-28T18:25:10Z" finished-at="2020-09-28T18:25:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Academy.Homepage -->
-    </test> <!-- Validating home page -->
-    <test name="Validating navigation" duration-ms="24904" started-at="2020-09-28T18:24:46Z" finished-at="2020-09-28T18:25:11Z">
+    <test name="Validating navigation" duration-ms="36781" started-at="2021-05-05T08:38:58Z" finished-at="2021-05-05T08:39:35Z">
       <class name="Academy.ValidateNavigation">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.ValidateNavigation@4f0f2942]" name="initialize" is-config="true" duration-ms="16914" started-at="2020-09-28T18:24:46Z" finished-at="2020-09-28T18:25:03Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.ValidateNavigation@57d4dd]" name="initialize" is-config="true" duration-ms="36221" started-at="2021-05-05T08:38:58Z" finished-at="2021-05-05T08:39:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="validateNavigation()[pri:0, instance:Academy.ValidateNavigation@4f0f2942]" name="validateNavigation" duration-ms="258" started-at="2020-09-28T18:25:03Z" finished-at="2020-09-28T18:25:03Z">
+        <test-method status="PASS" signature="validateNavigation()[pri:0, instance:Academy.ValidateNavigation@57d4dd]" name="validateNavigation" duration-ms="135" started-at="2021-05-05T08:39:34Z" finished-at="2021-05-05T08:39:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateNavigation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.ValidateNavigation@4f0f2942]" name="tearDown" is-config="true" duration-ms="7715" started-at="2020-09-28T18:25:03Z" finished-at="2020-09-28T18:25:11Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.ValidateNavigation@57d4dd]" name="tearDown" is-config="true" duration-ms="408" started-at="2021-05-05T08:39:34Z" finished-at="2021-05-05T08:39:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Academy.ValidateNavigation -->
     </test> <!-- Validating navigation -->
-    <test name="Validating Title" duration-ms="24994" started-at="2020-09-28T18:24:46Z" finished-at="2020-09-28T18:25:11Z">
+    <test name="Validating Title" duration-ms="41066" started-at="2021-05-05T08:38:58Z" finished-at="2021-05-05T08:39:39Z">
       <class name="Academy.validateTitle">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.validateTitle@15888343]" name="initialize" is-config="true" duration-ms="17410" started-at="2020-09-28T18:24:46Z" finished-at="2020-09-28T18:25:04Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.validateTitle@1ecda92]" name="initialize" is-config="true" duration-ms="40274" started-at="2021-05-05T08:38:58Z" finished-at="2021-05-05T08:39:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="ValidateTitleNavigation()[pri:0, instance:Academy.validateTitle@15888343]" name="ValidateTitleNavigation" duration-ms="89" started-at="2020-09-28T18:25:04Z" finished-at="2020-09-28T18:25:04Z">
+        <test-method status="PASS" signature="ValidateTitleNavigation()[pri:0, instance:Academy.validateTitle@1ecda92]" name="ValidateTitleNavigation" duration-ms="57" started-at="2021-05-05T08:39:38Z" finished-at="2021-05-05T08:39:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateTitleNavigation -->
-        <test-method status="FAIL" signature="ValidateheaderText()[pri:0, instance:Academy.validateTitle@15888343]" name="ValidateheaderText" duration-ms="422" started-at="2020-09-28T18:25:04Z" finished-at="2020-09-28T18:25:04Z">
+        <test-method status="FAIL" signature="ValidateheaderText()[pri:0, instance:Academy.validateTitle@1ecda92]" name="ValidateheaderText" duration-ms="46" started-at="2021-05-05T08:39:38Z" finished-at="2021-05-05T08:39:38Z">
           <exception class="junit.framework.ComparisonFailure">
             <message>
               <![CDATA[expected:<...RYTHING ABOUT TESTIN[G]> but was:<...RYTHING ABOUT TESTIN[]>]]>
@@ -121,11 +67,65 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateheaderText -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.validateTitle@15888343]" name="tearDown" is-config="true" duration-ms="6045" started-at="2020-09-28T18:25:05Z" finished-at="2020-09-28T18:25:11Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.validateTitle@1ecda92]" name="tearDown" is-config="true" duration-ms="196" started-at="2021-05-05T08:39:39Z" finished-at="2021-05-05T08:39:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Academy.validateTitle -->
     </test> <!-- Validating Title -->
+    <test name="Validating home page" duration-ms="61957" started-at="2021-05-05T08:38:58Z" finished-at="2021-05-05T08:40:00Z">
+      <class name="Academy.Homepage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.Homepage@1857fe2]" name="initialize" is-config="true" duration-ms="12412" started-at="2021-05-05T08:38:58Z" finished-at="2021-05-05T08:39:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="hompage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.Homepage@1857fe2]" name="hompage" duration-ms="30746" started-at="2021-05-05T08:39:10Z" data-provider="getData" finished-at="2021-05-05T08:39:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonretricteduser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passNonrestricted]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[This is not restirected user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hompage -->
+        <test-method status="PASS" signature="hompage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.Homepage@1857fe2]" name="hompage" duration-ms="18387" started-at="2021-05-05T08:39:41Z" data-provider="getData" finished-at="2021-05-05T08:40:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[retricteduser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passrestricted]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[This is restirected user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hompage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.Homepage@1857fe2]" name="tearDown" is-config="true" duration-ms="220" started-at="2021-05-05T08:40:00Z" finished-at="2021-05-05T08:40:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.Homepage -->
+    </test> <!-- Validating home page -->
   </suite> <!-- Suite -->
 </testng-results>
