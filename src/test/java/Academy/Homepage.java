@@ -38,7 +38,7 @@ public class Homepage extends base {
 		LoginPage lp=new LoginPage(driver);
 		lp.getemail().sendKeys(username);
 		lp.getpassword().sendKeys(password);
-		Assert.assertTrue(false);
+		Assert.assertFalse(true);
 		lp.getsubmit().click();
 		System.out.println(text);
 		}
