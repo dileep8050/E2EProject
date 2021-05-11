@@ -39,6 +39,18 @@ public class validateTitle extends base {
 		log.info("Body text validated successfully");
 	}
 	@Test()
+	public void googlehomepage() throws IOException
+	{
+		driver.get("https://www.google.com/");
+		Assert.assertTrue(false);
+	}
+	@Test()
+	public void facebookloginpage() throws IOException
+	{
+		driver.get("https://www.facebook.com/");
+		Assert.assertTrue(false);
+	}
+	@Test()
 	public void ValidateheaderText() throws IOException
 	{
 		Assert.assertEquals(l.getheader().getText(), "AN ACADEMY TO LEARN EVERYTHING ABOUT TESTIN");
