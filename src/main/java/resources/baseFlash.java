@@ -103,6 +103,6 @@ public class baseFlash {
 		File source=ts.getScreenshotAs(OutputType.FILE);
 		String destinationFileName=System.getProperty("user.dir")+"\\reports\\"+testCaseName+".png";
 		FileHandler.copy(source, new File(destinationFileName));
-		return destinationFileName;
+		return testCaseName+".png";
 	}
 }
